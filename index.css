@@ -9,7 +9,7 @@
     width: 200px;
     height: 200px;
     top: -00px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
     margin-top: 50px;
     border-radius: 50%;
 }
@@ -19,14 +19,6 @@ img {
     border: 0;
 }
 
-#lead-content {
-    position: absolute;
-    z-index: 10;
-    top: -20%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 #scroll-to-top{
     position: fixed;
