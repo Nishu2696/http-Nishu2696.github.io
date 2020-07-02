@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.profile-image{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -00px;
+    margin-left: -100px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+#lead-content {
+    position: absolute;
+    z-index: 10;
+    top: -20%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#scroll-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+
+    padding: 24px;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 44px rgba(173, 181, 206, .75);
+    background: #fff;
+
+    transition-property: background, color, bottom, opacity, visibilty;
+    transition-duration: .25s;
+}
+
+#scroll-to-top [data-show = "false"]{
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#scroll-to-top svg{
+    color: #ec380b;
+    height: 24px;
+    width: 24px;
+}
+
+#scroll-to-top:hover{
+    cursor: pointer;
+    background: #121212;
+}
+
+#scroll-to-top:hover{
+    color: #fff;
+}
