@@ -22,9 +22,6 @@
     <!-- Your custom styles (optional) -->
     <link href="index.css" rel="stylesheet">
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-
     <style>
         html,
         body,
@@ -559,8 +556,8 @@
                                         <h5 class="card-title">TO-DO-LIST</h5>
                                         <p class="card-text">
                                             UI-DESIGN: <i class="devicon-html5-plain-wordmark colored"></i>
-                                                        <i class="devicon-css3-plain-wordmark colored"></i> 
-                                                        <i class="devicon-bootstrap-plain-wordmark colored"></i><br>
+                                            <i class="devicon-css3-plain-wordmark colored"></i>
+                                            <i class="devicon-bootstrap-plain-wordmark colored"></i><br>
                                             PROGRAMMING LANGUAGE: <i class="devicon-javascript-plain colored"></i>
                                         </p>
                                         <p class="card-text">A basic notes program done with HTML, CSS, JAVASCRIPT
@@ -580,7 +577,7 @@
                                         <h5 class="card-title">TIC-TAC-TOE</h5>
                                         <p class="card-text">
                                             UI-DESIGN: <i class="devicon-html5-plain-wordmark colored"></i>
-                                                        <i class="devicon-css3-plain-wordmark colored"></i> <br>
+                                            <i class="devicon-css3-plain-wordmark colored"></i> <br>
                                             PROGRAMMING LANGUAGE: <i class="devicon-javascript-plain colored"></i>
                                         </p>
                                         <p class="card-text">Basically a two player game where player-1 chooses the
@@ -604,7 +601,7 @@
                                         <h5 class="card-title">NY TIMES</h5>
                                         <p class="card-text">
                                             UI-DESIGN: <i class="devicon-html5-plain-wordmark colored"></i>
-                                                        <i class="devicon-bootstrap-plain-wordmark colored"></i><br>
+                                            <i class="devicon-bootstrap-plain-wordmark colored"></i><br>
                                             PROGRAMMING LANGUAGE: <i class="devicon-javascript-plain colored"></i>
                                         </p>
                                         <p class="card-text">USing the NewYork Times API , various section of the news
@@ -756,76 +753,46 @@
                     <strong>me</strong></h2>
                 <div class="row wow fadeIn" data-wow-delay="0.4s">
 
-                    <!--First column-->
-                    <div class="col-md-8 mb-5">
-                        <form method="post">
-                            <!--First row-->
-                            <div class="row">
-
-                                <!--First column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="form41" class="form-control">
-                                            <label for="form41" class="">Your name</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Second column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="form52" class="form-control">
-                                            <label for="form52" class="">Your email</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.First row-->
-
-                            <!--Second row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="form51" class="form-control">
-                                        <label for="form51" class="">Subject</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/Second row-->
-
-                            <!--Third row-->
-                            <div class="row">
-                                <!--First column-->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <textarea type="text" id="form76" class="md-textarea form-control"
-                                            rows="3"></textarea>
-                                        <label for="form76">Your message</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Third row-->
-                        </form>
-                        <div class="text-center text-md-left mt-4"><input type="button" class="btn btn-primary"
-                                value="Send" onclick="sendEmail()" /></div>
-                    </div>
-                    <!--.First column-->
-
                     <!--Second column-->
-                    <div class="col-md-4">
-                        <ul class="contact-icons list-unstyled text-center">
-                            <li><i class="fas fa-birthday-cake fa-2x"></i>
-                                <p>26/05/1996</p>
-                            </li>
-                            <li><i class="fas fa-phone fa-2x"></i>
-                                <p>+91-9597875281</p>
-                            </li>
-                            <li><i class="fas fa-envelope fa-2x"></i>
-                                <p>nishaanth2696@gmail.com</p>
-                            </li>
-                        </ul>
+                    <!-- Grid column -->
+                    <div class="col-md-12">
+
+                        <div class="card-body contact text-center h-100 white-text">
+                            <ul class="text-lg-center list-unstyled ml-4">
+                                <li>
+                                    <p><i class="fas fa-birthday-cake pr-2"></i>26/05/1996</p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone pr-2"></i>+91-9597875281</p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope pr-2"></i>nishaanth2696@gmail.com</p>
+                                </li>
+                            </ul>
+                            <hr class="hr-light my-4">
+                            <ul class="list-inline text-center list-unstyled">
+                                <li class="list-inline-item">
+                                    <a class="p-2 fa-lg tw-ic" href="https://github.com/Nishu2696?tab=repositories" target="blank">
+                                        <i class="fab fa-github light-green-text-2"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="p-2 fa-lg li-ic" href="https://www.linkedin.com/in/nishaanth-vikram-3058ab83/"
+                                    target="blank">
+                                        <i class="fab fa-linkedin-in"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="p-2 fa-lg ins-ic">
+                                        <i class="fab fa-instagram"> </i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
                     </div>
+                    <!-- Grid column -->
                     <!--.Second column-->
                 </div>
 

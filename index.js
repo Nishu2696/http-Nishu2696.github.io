@@ -20,17 +20,3 @@ scrollToTop.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
-
-function sendEmail() {
-	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "marcnishaanth2696@gmail.com",
-	Password : "Hakunamatata26!",
-	To : 'nishaanth2696@gmail.com',
-	From : "marcnishaanth2696@gmail.com",
-	Subject : "hello brother",
-	Body : "enjoy your vacation",
-	}).then(
-		message => alert("mail sent successfully")
-	);
-}
